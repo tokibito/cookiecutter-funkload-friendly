@@ -1,0 +1,23 @@
+[main]
+title = {{ cookiecutter.project_title }}
+description = {{ cookiecutter.project_description }}
+url = {{ cookiecutter.site_protocol }}://{{ cookiecutter.site_domain_port }}
+
+[ftest]
+log_to = {{ cookiecutter.ftest_log_to }}
+log_directory = {{ cookiecutter.ftest_log_directory }}
+result_directory = {{ cookiecutter.ftest_result_directory }}
+sleep_time_min = 0
+sleep_time_max = 0
+
+[bench]
+cycles = {{ cookiecutter.bench_cycles }}
+duration = {{ cookiecutter.bench_duration }}
+startup_delay = 0.01
+sleep_time = 0.01
+cycle_time = {{ cookiecutter.bench_cycle_time }}
+sleep_time_min = 0
+sleep_time_max = 0.5
+log_to = {{ cookiecutter.bench_log_to }}
+log_directory = {{ cookiecutter.bench_log_directory }}
+result_directory = {{ cookiecutter.bench_result_directory }}

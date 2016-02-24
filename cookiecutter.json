@@ -1,0 +1,19 @@
+{
+    "repo_name": "mytest",
+    "project_title": "My Test",
+    "project_description": "Load testing to my Web Application.",
+    "site_protocol": "http",
+    "site_domain_port": "127.0.0.1:8000",
+    "ftest_log_to": "console file",
+    "ftest_log_directory": "ftest/",
+    "ftest_result_directory": "ftest/",
+    "bench_cycles": "1:3:10",
+    "bench_duration": "10",
+    "bench_cycle_time": "1",
+    "bench_log_to": "console file",
+    "bench_log_directory": "bench/",
+    "bench_result_directory": "bench/",
+    "module_name": "test_main",
+    "class_name": "MainTest",
+    "example_login": "yes"
+}

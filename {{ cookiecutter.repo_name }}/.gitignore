@@ -1,0 +1,7 @@
+*.py[cod]
+__pycache__
+.env
+venv
+*.xml
+*.log
+local.conf

@@ -1,0 +1,2 @@
+funkload==1.17.1
+funkload-friendly==0.1
