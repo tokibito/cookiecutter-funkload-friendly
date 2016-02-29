@@ -4,6 +4,13 @@
 
 {{ cookiecutter.project_description }}
 
+Require
+=======
+
+* Python 2.7
+* virtualenv
+* gnuplot
+
 Usage
 =====
 
@@ -38,3 +45,9 @@ Usage
 ::
 
    $ fl-run-bench --config=local.conf {{ cookiecutter.module_name }} {{ cookiecutter.class_name }}.test_top_page
+
+6. Build report.
+
+report for bench::
+
+   $ fl-build-report --html -o report/ bench/test_top_page.xml
